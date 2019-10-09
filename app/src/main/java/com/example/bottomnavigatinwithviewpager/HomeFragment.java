@@ -7,10 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class NextDayFragment extends Fragment {
+public class HomeFragment extends Fragment {
 
-    public static NextDayFragment newInstance() {
-        NextDayFragment fragment = new NextDayFragment();
+
+    public static HomeFragment newInstance() {
+        HomeFragment fragment = new HomeFragment();
         return fragment;
     }
 
@@ -25,7 +26,7 @@ public class NextDayFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        return inflater.inflate(R.layout.fragment_next_day, container, false);
+        return inflater.inflate(R.layout.fragment_home, container, false);
     }
 
 }

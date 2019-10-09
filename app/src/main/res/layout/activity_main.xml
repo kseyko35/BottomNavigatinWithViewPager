@@ -15,12 +15,36 @@
         android:layout_weight="1"
         />
 
-    <android.support.design.widget.BottomNavigationView
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        >
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/add"
+            android:layout_gravity="center"
+       />
+
+        <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:itemBackground="@color/colorPrimary"
+        android:layout_height="match_parent"
+
         app:itemIconTint="@color/cardview_light_background"
         app:itemTextColor="@color/cardview_light_background"
-        app:menu="@menu/bottom_navigation_items"/>
+        app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
+        app:itemTextAppearanceInactive="@style/BottomNavigationView"
+        app:menu="@menu/bottom_navigation_items"
+        app:labelVisibilityMode="labeled"/>
+
+
+
+
+    </FrameLayout>
+
 </LinearLayout>

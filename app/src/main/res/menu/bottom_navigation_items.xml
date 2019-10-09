@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/action_item1"
+        android:id="@+id/action_item0"
         android:icon="@mipmap/home"
-        android:title="Home"/>
+        android:title="Home1"/>
     <item
-        android:id="@+id/action_item2"
+        android:id="@+id/action_item1"
         android:icon="@mipmap/download"
         android:title="Download"/>
 
 
     <item
+        android:id="@+id/action_item2"
+        android:title=""/>
+
+    <item
         android:id="@+id/action_item3"
         android:icon="@mipmap/upload"
         android:title="Upload"/>
+
+    <item
+        android:id="@+id/action_item4"
+        android:icon="@mipmap/attach"
+        android:title="Attach"/>
+
 
 </menu>

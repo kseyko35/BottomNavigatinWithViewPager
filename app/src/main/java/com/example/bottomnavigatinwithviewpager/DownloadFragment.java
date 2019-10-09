@@ -7,11 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class TodayFragment extends Fragment {
+public class DownloadFragment extends Fragment {
 
-
-    public static TodayFragment newInstance() {
-        TodayFragment fragment = new TodayFragment();
+    public static DownloadFragment newInstance() {
+        DownloadFragment fragment = new DownloadFragment();
         return fragment;
     }
 
@@ -26,7 +25,6 @@ public class TodayFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        return inflater.inflate(R.layout.fragment_today, container, false);
+        return inflater.inflate(R.layout.fragment_download, container, false);
     }
-
 }

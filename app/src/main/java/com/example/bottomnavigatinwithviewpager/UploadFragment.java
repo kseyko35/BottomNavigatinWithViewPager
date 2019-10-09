@@ -7,10 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class TomorrowFragment extends Fragment {
+public class UploadFragment extends Fragment {
 
-    public static TomorrowFragment newInstance() {
-        TomorrowFragment fragment = new TomorrowFragment();
+    public static UploadFragment newInstance() {
+        UploadFragment fragment = new UploadFragment();
         return fragment;
     }
 
@@ -25,6 +25,7 @@ public class TomorrowFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        return inflater.inflate(R.layout.fragment_tomorrow, container, false);
+        return inflater.inflate(R.layout.fragment_upload, container, false);
     }
+
 }
